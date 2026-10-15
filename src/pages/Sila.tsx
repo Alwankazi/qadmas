@@ -384,7 +384,7 @@ export default function Sila() {
                 Engineered by Qadmas Technologies
               </h3>
               <p className="text-[14px] text-slate leading-relaxed">
-                Custom-built from the database layer to the frontend components. Provides 100% code ownership, bespoke ERP connectors, and direct SLA engineering support without third-party reliance.
+                Custom-built from the database layer to the frontend components. Provides 100% code ownership, custom integrations, and direct SLA engineering support without third-party reliance.
               </p>
             </div>
           </div>
@@ -472,7 +472,7 @@ export default function Sila() {
             </h2>
 
             <p className="text-[16px] text-slate-300 leading-relaxed">
-              Schedule a live walkthrough with our senior engineering team. We’ll demonstrate the live dual-portal system, review your ERP integration requirements, and prepare a custom deployment blueprint.
+              Schedule a live walkthrough with our senior engineering team. We’ll demonstrate the live dual-portal system, review your integration requirements, and prepare a custom deployment blueprint.
             </p>
 
             <div className="flex flex-wrap items-center gap-4 pt-2">
@@ -489,7 +489,7 @@ export default function Sila() {
               </button>
 
               <a
-                href="https://wa.me/97471328520"
+                href="https://wa.me/919022568492"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 py-2.5 rounded-full border border-slate-700 hover:border-slate-500 bg-slate-900/60 text-white text-[14px] font-medium transition-colors"
@@ -509,7 +509,7 @@ export default function Sila() {
               </div>
               <div className="flex items-center gap-2">
                 <Check size={14} className="text-emerald-400" />
-                <span>Custom Legacy ERP Connectors</span>
+                <span>Custom Platform Integrations</span>
               </div>
             </div>
           </div>

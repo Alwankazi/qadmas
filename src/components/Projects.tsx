@@ -1,4 +1,4 @@
-import { ArrowRight, Globe, Code2, Building2, Smartphone } from 'lucide-react';
+import { ArrowRight, Globe, Code2, Smartphone } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 export default function Projects() {
@@ -22,16 +22,6 @@ export default function Projects() {
       tech: 'React · Python · Redis',
       icon: Code2,
       client: 'Qatar & the UAE',
-    },
-    {
-      id: 'erp-solutions',
-      category: 'SUPPLY CHAIN ERP',
-      title: 'Redchilly Trading — Multi-Warehouse Inventory & Invoicing',
-      snippet: 'Unified 4 warehouses across Qatar, the UAE, and India with real-time barcode telemetry and automated GCC VAT commercial invoicing.',
-      metric: '99.99% Stock Precision',
-      tech: 'TypeScript · PostgreSQL · Docker',
-      icon: Building2,
-      client: 'Qatar & India',
     },
     {
       id: 'website-development',
@@ -69,8 +59,8 @@ export default function Projects() {
         </Link>
       </div>
 
-      {/* 4 Cards Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      {/* 3 Cards Grid */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {posts.map((post, idx) => {
           const Icon = post.icon;
           return (

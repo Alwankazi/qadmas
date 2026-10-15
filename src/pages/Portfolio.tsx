@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { ArrowRight, Globe, Code2, Building2 } from 'lucide-react';
+import { ArrowRight, Globe, Code2 } from 'lucide-react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
@@ -24,16 +24,6 @@ const categories = [
     icon: Code2,
     featuredClient: "Wantik-X Enterprise CRM Engine",
   },
-  {
-    id: "erp-solutions",
-    title: "Enterprise ERP & Inventory Telemetry",
-    desc: "Multi-branch supply chain sync, customs invoice automation, and warehouse inventory tracking.",
-    clientCount: "15+ GCC Installations",
-    metrics: "< 0.01% Stock Discrepancy · Automated GCC VAT",
-    techStack: ["TypeScript", "PostgreSQL", "Redis", "WhatsApp API"],
-    icon: Building2,
-    featuredClient: "Redchilly Trading (Qatar & India)",
-  },
 ];
 
 export default function Portfolio() {
@@ -51,13 +41,13 @@ export default function Portfolio() {
         </h1>
 
         <p className="font-apple text-[17px] text-slate leading-relaxed max-w-[660px] mx-auto">
-          Explore custom software, automated trading ERPs, and fast web platforms we have built and currently support for operating companies across Qatar, the UAE, and India.
+          Explore custom software and fast web platforms we have built and currently support for operating companies across Qatar, the UAE, and India.
         </p>
       </section>
 
       {/* Portfolio Grid */}
       <section className="py-20 max-w-[1200px] mx-auto px-6 border-t border-slate-200/80">
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {categories.map((cat, i) => {
             const Icon = cat.icon;
 

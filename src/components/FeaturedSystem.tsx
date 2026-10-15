@@ -19,7 +19,7 @@ export default function FeaturedSystem(_props: FeaturedSystemProps = {}) {
           </h2>
 
           <p className="font-apple text-[16px] sm:text-[17px] text-slate leading-relaxed max-w-2xl mx-auto mt-4">
-            We don&apos;t build disposable prototypes. We architect robust software, scalable web platforms, and automated ERPs that your team can run on for the next decade.
+            We don&apos;t build disposable prototypes. We architect robust software, scalable web platforms, and customer automation that your team can run on for the next decade.
           </p>
         </div>
 

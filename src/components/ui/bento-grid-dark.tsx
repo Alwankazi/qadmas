@@ -115,17 +115,17 @@ export default function FUIBentoGridDark({
   return (
     <div className="w-full max-w-[1240px] mx-auto px-4 sm:px-6 pb-20">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5 sm:gap-6 w-full">
-        {/* 1. Ai - Powered CRM & ERP (Wantik-X) */}
+        {/* 1. Wantik-X CRM */}
         <BentoCard
           eyebrow="Autonomous Operations"
-          title="Ai - Powered CRM & ERP (Wantik-X)"
+          title="Wantik-X CRM"
           description="Automated billing, inventory & WhatsApp Al agents"
           href="https://wantikx.com/"
           isExternal={true}
           graphic={
             <img
               src="/services/crm-erp.jpg"
-              alt="Ai - Powered CRM & ERP (Wantik-X)"
+              alt="Wantik-X CRM"
               className="w-full h-full object-cover object-center transition-transform duration-500 group-hover:scale-105"
               loading="lazy"
             />

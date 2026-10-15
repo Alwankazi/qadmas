@@ -1,29 +1,33 @@
-import { Check, Cpu, ArrowRight } from 'lucide-react';
-import { Link } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import { Link } from 'react-router-dom';
+import { ArrowUpRight } from 'lucide-react';
 
 const stats = [
   { label: 'Delivered production systems', value: '100+' },
-  { label: 'Active regional hubs', value: '3 (QA · UAE · IN)' },
+  { label: 'Regional hubs in Qatar, UAE & India', value: '3' },
   { label: 'Years in continuous production', value: '4+' },
 ];
 
 const principles = [
   {
-    title: 'Direct Senior Engineering Access',
+    title: 'Direct Senior',
+    accent: 'Engineering Access',
     desc: 'You work with the actual engineers architecting your database and writing your frontend. No non-technical account managers playing telephone with your requirements.',
   },
   {
-    title: 'Milestone-Based Fixed Pricing',
+    title: 'Milestone-Based',
+    accent: 'Fixed Pricing',
     desc: 'Every project begins with a clear technical roadmap and fixed scope. You review working staging builds before milestone signoffs — zero hidden retainer traps.',
   },
   {
-    title: 'Total Code & Asset Ownership',
+    title: 'Total Code & Asset',
+    accent: 'Ownership',
     desc: 'From the initial Git commit, all source code, Docker configs, and database schemas belong 100% to you. We never lock you into proprietary black boxes.',
   },
   {
-    title: 'Real Ground Support in the GCC',
+    title: 'Real Ground Support',
+    accent: 'in the GCC',
     desc: 'Whenever you need in-person planning, requirement sessions, or critical deployment support, our leadership is physically present in Qatar and the UAE.',
   },
 ];
@@ -33,53 +37,35 @@ export default function About() {
     <div className="bg-gallery-white min-h-screen font-apple text-ink selection:bg-apple-blue selection:text-white">
       <Navbar />
 
-      {/* Hero Section */}
-      <section className="relative pt-36 pb-20 px-6 max-w-[1200px] mx-auto text-center before:absolute before:inset-0 before:bg-gradient-to-r before:from-sky-100/50 before:via-white before:to-sky-50/50 before:rounded-full before:top-20 before:blur-3xl before:-z-10">
-        <h1 className="text-display font-medium text-ink tracking-tight leading-[1.05] mb-6 max-w-[900px] mx-auto">
+      <main>
+      <section className="mx-auto max-w-[1200px] px-6 pb-20 pt-40 text-center sm:pb-24 sm:pt-48">
+        <h1 className="mx-auto mb-7 max-w-[1000px] text-[42px] font-medium leading-[1.08] tracking-[-0.03em] text-ink sm:text-[60px] lg:text-[72px] text-balance">
           Built in the Gulf. <br />
           <span className="text-apple-blue font-serif-accent font-normal italic">
             Engineered for real-world reliability.
           </span>
         </h1>
 
-        <p className="font-apple text-[17px] text-slate leading-relaxed max-w-[680px] mx-auto mb-12">
+        <p className="mx-auto mb-8 max-w-[680px] text-[16px] leading-[1.8] text-slate sm:text-[17px]">
           We founded Qadmas Technologies after watching too many businesses across Qatar and the UAE get burned by agencies that overpromise, outsource to invisible subcontractors, and vanish after receiving their deposit.
         </p>
 
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-5 max-w-[880px] mx-auto">
-          {stats.map((stat, i) => (
-            <div
-              key={i}
-              className="rounded-3xl border border-slate-200/80 px-3 sm:px-4 md:px-6 py-6 bg-white text-center shadow-lg hover:shadow-xl transition-all duration-300 flex flex-col justify-center"
-            >
-              <div
-                className={`font-apple font-bold text-apple-blue leading-none mb-2 whitespace-nowrap tracking-tight ${
-                  stat.value.length > 6
-                    ? "text-[28px] sm:text-[18px] md:text-[23px] lg:text-[28px] xl:text-[32px]"
-                    : "text-[36px]"
-                }`}
-              >
-                {stat.value}
-              </div>
-              <div className="font-apple text-[13px] text-slate">
-                {stat.label}
-              </div>
-            </div>
-          ))}
-        </div>
+        <Link to="/contact" className="btn-slide-ghost group focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-apple-blue">
+          <span>Get in Touch</span>
+          <span className="arrow-circle"><ArrowUpRight size={16} aria-hidden="true" /></span>
+        </Link>
       </section>
 
-      {/* Founder Statement Section */}
-      <section className="py-24 max-w-[1200px] mx-auto px-6 border-t border-slate-200/80">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-          <div className="lg:col-span-7 space-y-6">
-            <h2 className="text-display font-medium text-ink tracking-tight leading-[1.04]">
-              &ldquo;Software shouldn’t be a <span className="text-apple-blue font-serif-accent font-normal italic">black box</span>&rdquo;
+      {/* Team Statement Section */}
+      <section aria-labelledby="team-letter-title" className="mx-auto max-w-[1152px] px-6 py-16 sm:px-12 sm:py-24 lg:px-20">
+        <article className="mx-auto max-w-[720px]">
+            <h2 id="team-letter-title" className="mx-auto mb-10 max-w-[680px] text-center font-serif-accent text-[42px] leading-[1.12] tracking-[-0.02em] text-sky-900 sm:mb-14 sm:text-[60px] text-balance">
+              &ldquo;Software shouldn’t be a <span className="text-apple-blue italic">black box</span>&rdquo;
             </h2>
 
-            <div className="space-y-4 font-apple text-[16px] text-slate leading-relaxed">
-              <p className="text-ink font-medium text-[18px]">
-                A note from our founder:
+            <div className="space-y-6 text-left text-[16px] leading-[1.85] text-sky-950 sm:text-justify sm:text-[17px]">
+              <p className="font-medium">
+                A note from our team:
               </p>
               <p>
                 When a business owner commissions custom software, they aren&apos;t buying code — they are investing in the backbone of their operations. Whether it&apos;s managing a multi-warehouse inventory across three countries or booking luxury yacht charters in the UAE, downtime or bad architecture costs real money.
@@ -92,84 +78,56 @@ export default function About() {
               </p>
             </div>
 
-            <div className="pt-4 border-t border-slate-200/80 font-apple">
-              <div className="text-ink text-[16px] font-semibold">Tauqeer Dadarkar</div>
-              <div className="text-slate text-[13px]">Founder &amp; Lead Systems Architect, Qadmas Technologies</div>
-            </div>
-          </div>
-
-          <div className="lg:col-span-5 rounded-3xl border border-slate-200/80 p-8 bg-white space-y-6 shadow-xl">
-            <div className="font-apple text-[15px] font-semibold text-ink flex items-center gap-2 border-b border-slate-200/80 pb-3.5">
-              <Cpu size={16} className="text-apple-blue" />
-              <span>The Gulf-India Engineering Corridor</span>
-            </div>
-
-            <p className="font-apple text-[14px] text-slate leading-relaxed">
-              Our unique operating model combines on-the-ground project architects across Qatar and the UAE with high-velocity engineering hubs in India. You get GCC commercial understanding paired with deep engineering talent and rapid development cycles.
-            </p>
-
-            <div className="space-y-3 font-apple text-[14px] pt-2">
-              <div className="flex items-start gap-2.5">
-                <span className="w-1.5 h-1.5 rounded-full bg-apple-blue shrink-0 mt-2" />
-                <span className="text-slate"><strong className="text-ink font-medium">Qatar &amp; the UAE:</strong> Project management, technical scoping, and GCC client alignment.</span>
-              </div>
-              <div className="flex items-start gap-2.5">
-                <span className="w-1.5 h-1.5 rounded-full bg-apple-blue shrink-0 mt-2" />
-                <span className="text-slate"><strong className="text-ink font-medium">India Engineering Labs:</strong> Full-stack development, database optimization, and automated testing.</span>
-              </div>
-              <div className="flex items-start gap-2.5">
-                <span className="w-1.5 h-1.5 rounded-full bg-apple-blue shrink-0 mt-2" />
-                <span className="text-slate"><strong className="text-ink font-medium">24/7 SLA Support:</strong> Direct engineer access and rapid incident resolution.</span>
+            <div className="mt-10 flex flex-col items-center gap-4 text-center">
+              <img src="/full-logo-dark.png?v=2" alt="" className="h-8 w-auto" loading="lazy" />
+              <div>
+              <div className="text-ink text-[16px] font-semibold">Qadmas Technologies Team</div>
+              <div className="mt-1 text-[14px] text-sky-800">Software Engineering &amp; Delivery</div>
               </div>
             </div>
+        </article>
+      </section>
 
-            <div className="pt-2">
-              <Link
-                to="/contact"
-                className="btn-slide-pill w-full justify-center group"
-              >
-                <span className="relative z-10 transition-all duration-500">
-                  Speak With Tauqeer &amp; The Team
-                </span>
-                <span className="arrow-circle">
-                  <ArrowRight size={14} />
-                </span>
-              </Link>
+      <section aria-label="Qadmas in numbers" className="mx-auto max-w-[1056px] px-6 py-20 sm:py-24">
+        <dl className="grid grid-cols-1 gap-10 sm:grid-cols-3 sm:gap-0">
+          {stats.map((stat) => (
+            <div key={stat.label} className="flex flex-col gap-3 px-5 text-center sm:border-r sm:border-slate-200/80 sm:last:border-r-0">
+              <dt className="order-2 text-[14px] leading-relaxed text-slate text-balance">{stat.label}</dt>
+              <dd className="order-1 text-[44px] font-medium leading-none tracking-[-0.03em] text-ink tabular-nums sm:text-[52px]">{stat.value}</dd>
             </div>
-          </div>
-        </div>
+          ))}
+        </dl>
       </section>
 
       {/* Engineering Principles */}
-      <section className="py-24 max-w-[1200px] mx-auto px-6 border-t border-slate-200/80">
-        <div className="text-center max-w-[700px] mx-auto mb-16">
-          <h2 className="text-display font-medium text-ink tracking-tight leading-[1.04]">
-            How we protect <span className="text-apple-blue font-serif-accent font-normal italic">your investment</span>
+      <section aria-labelledby="principles-title" className="mx-auto max-w-[1056px] px-6 pb-20 sm:pb-28">
+        <div className="mx-auto mb-12 max-w-[660px] text-center sm:mb-16">
+          <h2 id="principles-title" className="mb-5 text-[40px] font-medium leading-[1.15] tracking-[-0.03em] text-ink sm:text-[56px] text-balance">
+            How we protect <span className="font-serif-accent font-normal italic text-apple-blue">your investment?</span>
           </h2>
+          <p className="mx-auto max-w-[520px] text-[16px] leading-relaxed text-slate">
+            Clear decisions, visible progress, and ownership that stays with the people who commissioned the work.
+          </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-          {principles.map((p, i) => (
-            <div
-              key={i}
-              className="rounded-3xl border border-slate-200/80 bg-white p-8 hover:border-apple-blue/50 hover:shadow-lg transition-all shadow-sm"
+        <div className="grid border-t border-slate-200/80 md:grid-cols-2 md:gap-x-16">
+          {principles.map((p) => (
+            <article
+              key={p.title}
+              className="grid gap-4 border-b border-slate-200/80 py-7 md:py-9"
             >
-              <div className="flex items-center gap-3 mb-4">
-                <div className="w-8 h-8 rounded-xl bg-apple-blue/10 border border-apple-blue/20 flex items-center justify-center text-apple-blue shrink-0">
-                  <Check size={16} />
-                </div>
-                <h3 className="font-apple text-[18px] font-semibold text-ink">
-                  {p.title}
+                <h3 className="text-[19px] font-medium leading-snug text-ink sm:text-[21px]">
+                  {p.title}{' '}<span className="text-apple-blue">{p.accent}</span>
                 </h3>
-              </div>
-              <p className="font-apple text-[14px] text-slate leading-relaxed">
+              <p className="text-[15px] leading-[1.8] text-slate sm:text-[16px]">
                 {p.desc}
               </p>
-            </div>
+            </article>
           ))}
         </div>
       </section>
 
+      </main>
       <Footer />
     </div>
   );

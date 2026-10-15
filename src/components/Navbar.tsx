@@ -1,12 +1,12 @@
 import { useState, useEffect } from 'react';
-import { Menu, X, ArrowUpRight, ChevronDown, Sparkles } from 'lucide-react';
+import { Menu, X, ArrowUpRight, ChevronDown } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
 import ContactModal from './ContactModal';
 
 const navLinks = [
   { label: 'Services', href: '/services',
     children: [
-      { label: 'Ai - Powered CRM & ERP (Wantik-X)', href: 'https://wantikx.com/', desc: 'Automated billing, inventory & WhatsApp AI agents' },
+      { label: 'Wantik-X CRM', href: 'https://wantikx.com/', desc: 'Automated billing, inventory & WhatsApp AI agents' },
       { label: 'Digital Marketing', href: '/services/digital-marketing', desc: 'Targeted campaigns, SEO, paid ads & growth analytics' },
       { label: 'Website Development', href: '/services', desc: 'React, Next.js & sub-second corporate web platforms' },
       { label: 'Mobile Application Development', href: '/services', desc: 'Native-feel iOS & Android apps with offline sync' },
@@ -14,7 +14,7 @@ const navLinks = [
   },
   { label: 'Products', href: '/products',
     children: [
-      { label: 'Wantik-X CRM & ERP', href: 'https://wantikx.com/', desc: 'Automated customer pipelines & lead dispatch' },
+      { label: 'Wantik-X CRM', href: 'https://wantikx.com/', desc: 'Automated customer pipelines & lead dispatch' },
       { label: 'Sila Vendor System', href: '/products/sila', desc: 'Procurement, supplier invoices & inventory tracking' },
     ]
   },
@@ -208,10 +208,6 @@ export default function Navbar() {
           </div>
 
           <div className="pt-6 border-t border-hairline-silver space-y-3">
-            <div className="text-[13px] font-geist text-slate flex items-center gap-2">
-              <Sparkles size={13} className="text-apple-blue" />
-              <span>Offices in Qatar · UAE · India</span>
-            </div>
             <Link
               to="/contact"
               onClick={() => setMenuOpen(false)}

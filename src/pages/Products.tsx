@@ -8,7 +8,7 @@ import ProductShowcaseCard from '../components/ui/product-showcase-card';
 
 export default function Products() {
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [defaultService, setDefaultService] = useState('Ai - Powered CRM & ERP (Wantik-X)');
+  const [defaultService, setDefaultService] = useState('Wantik-X CRM');
 
   const openContact = (service: string) => {
     setDefaultService(service);
@@ -29,7 +29,7 @@ export default function Products() {
         </h1>
 
         <p className="font-apple text-[17px] text-slate leading-relaxed max-w-[700px] mx-auto mb-10">
-          Explore our production-ready ERP &amp; CRM suites, procurement portals, and transparent subscription packages engineered across Qatar, the UAE, and India.
+          Explore our production-ready CRM platforms, procurement portals, and transparent subscription packages engineered across Qatar, the UAE, and India.
         </p>
 
         <div className="flex flex-wrap items-center justify-center gap-4">
@@ -46,7 +46,7 @@ export default function Products() {
           </a>
 
           <button
-            onClick={() => openContact('Ai - Powered CRM & ERP (Wantik-X)')}
+            onClick={() => openContact('Wantik-X CRM')}
             className="px-6 py-2.5 rounded-full border border-slate-200 hover:border-slate-300 bg-white text-ink text-[14px] font-medium transition-colors cursor-pointer shadow-2xs"
           >
             Book Platform Demo
@@ -57,7 +57,7 @@ export default function Products() {
       {/* Products Deep-Dive Section — Plain unboxed presentation on default bg-gallery-white with dark text */}
       <section className="w-full bg-gallery-white text-ink py-20 sm:py-28 border-t border-slate-200/80">
         <div className="max-w-[1240px] mx-auto px-6 space-y-20 sm:space-y-28">
-          {/* Product 1: Wantik-X ERP & CRM */}
+          {/* Product 1: Wantik-X CRM */}
           <ProductShowcaseCard
             // badge="COLLABORATION"
             badgeIcon={Users}
@@ -76,7 +76,7 @@ export default function Products() {
             ctaLink="https://wantikx.com/"
             ctaExternal={true}
             rightImageSrc="/services/crm-erp.jpg"
-            rightImageAlt="Wantik-X ERP & CRM Operations"
+            rightImageAlt="Wantik-X CRM Operations"
             rightCaption="Collaboration Preview"
             rightCaptionIcon={Users}
             rightStatus="Live Operations"

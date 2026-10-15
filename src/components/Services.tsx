@@ -8,11 +8,11 @@ export default function Services() {
 
   const serviceCards: CardItem[] = [
     {
-      id: 'ai-crm-erp',
-      category: 'Ai - Powered CRM & ERP',
+      id: 'ai-crm',
+      category: 'AI-Powered CRM',
       title: <>Intelligent CRM &amp; Automation</>,
       src: '/services/crm-erp.jpg',
-      quoteService: 'Ai - Powered CRM & ERP (Wantik-X)',
+      quoteService: 'Wantik-X CRM',
       badge: {
         name: 'Wantik-X',
         href: 'https://wantikx.com/',
@@ -65,7 +65,7 @@ export default function Services() {
                 </span>
               </>
             }
-            subtitle="From AI-powered CRM & ERP platforms like Wantik-X to digital marketing, website development, and mobile applications, we build technology solutions that simplify operations, strengthen your digital presence, and accelerate growth."
+            subtitle="From CRM platforms like Wantik-X to digital marketing, website development, and mobile applications, we build technology solutions that simplify operations, strengthen your digital presence, and accelerate growth."
             onCardClick={handleCardClick}
           />
         </div>

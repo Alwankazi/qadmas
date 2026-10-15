@@ -36,7 +36,7 @@ export default function Hero({ onGetQuoteClick }: HeroProps) {
                   transition={{ duration: 0.8, delay: 0.1, ease: "easeOut" }}
                   className="text-base sm:text-lg font-normal max-w-2xl text-slate leading-relaxed"
                 >
-                  We architect custom software, operational ERPs, and fast web platforms from scratch. No cookie-cutter templates, no bloated retainers — just working software backed by senior engineering teams across Qatar, the UAE, and India.
+                  We architect custom software and fast web platforms from scratch. No cookie-cutter templates, no bloated retainers — just working software backed by senior engineering teams across Qatar, the UAE, and India.
                 </motion.p>
               </div>
 

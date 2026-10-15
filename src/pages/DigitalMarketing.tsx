@@ -212,7 +212,7 @@ export default function DigitalMarketing() {
                 </button>
 
                 <a
-                  href="https://wa.me/97471328520"
+                  href="https://wa.me/919022568492"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-6 py-2.5 rounded-full border border-slate-700 hover:border-slate-500 bg-slate-900/60 text-white text-[14px] font-medium transition-colors"

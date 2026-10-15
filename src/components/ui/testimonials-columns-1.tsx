@@ -15,16 +15,6 @@ export const defaultTestimonials: TestimonialItem[] = [
   {
     text: (
       <>
-        Implementing this ERP was <span className="font-semibold text-ink">smooth and quick</span>. The customizable, user-friendly interface made team training <span className="font-semibold text-ink">effortless</span>.
-      </>
-    ),
-    image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
-    name: "Bilal Ahmed",
-    role: "IT Manager · Logistics Enterprise",
-  },
-  {
-    text: (
-      <>
         Its robust features and quick support have <span className="font-semibold text-ink">transformed our workflow</span>, making us <span className="font-semibold text-ink">significantly more efficient</span>.
       </>
     ),
@@ -65,16 +55,6 @@ export const defaultTestimonials: TestimonialItem[] = [
   {
     text: (
       <>
-        Using this ERP, our <span className="font-semibold text-ink">online presence and conversions</span> significantly improved, boosting business performance.
-      </>
-    ),
-    image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=150&auto=format&fit=crop&q=80",
-    name: "Farhan Siddiqui",
-    role: "Head of Growth · Digital Commerce",
-  },
-  {
-    text: (
-      <>
         Finding an engineering team that meets deadlines consistently is rare. Qadmas overhauled our cloud portal with <span className="font-semibold text-ink">zero downtime</span>.
       </>
     ),
@@ -91,16 +71,6 @@ export const defaultTestimonials: TestimonialItem[] = [
     image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80",
     name: "Karim Larkamiz",
     role: "Operations Lead · Verkiezen",
-  },
-  {
-    text: (
-      <>
-        Our warehouse and multi-channel inventory was a headache until we deployed their custom ERP engine. It <span className="font-semibold text-ink">eliminated stock discrepancies</span>.
-      </>
-    ),
-    image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150&auto=format&fit=crop&q=80",
-    name: "Abdul Hafiz",
-    role: "Founder · Redchilly Trading",
   },
 ];
 
@@ -177,9 +147,10 @@ export default function TestimonialsColumns({
   testimonials = defaultTestimonials,
   className = "",
 }: TestimonialsColumnsProps) {
-  const firstColumn = testimonials.slice(0, 3);
-  const secondColumn = testimonials.slice(3, 6);
-  const thirdColumn = testimonials.slice(6, 9);
+  const columnSize = Math.ceil(testimonials.length / 3);
+  const firstColumn = testimonials.slice(0, columnSize);
+  const secondColumn = testimonials.slice(columnSize, columnSize * 2);
+  const thirdColumn = testimonials.slice(columnSize * 2);
 
   return (
     <section className={`py-14 sm:py-16 relative overflow-hidden w-full bg-gallery-white ${className}`}>

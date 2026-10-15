@@ -8,7 +8,7 @@ export default function PrivacyPolicy() {
     {
       id: 'commitment',
       title: '1. Commitment to Client Confidentiality',
-      content: `At Qadmas Technologies, we architect mission-critical software, custom enterprise resource planning (ERP) suites, and high-velocity web platforms for enterprises across Qatar, the UAE, and India. We recognize that our clients entrust us with sensitive commercial data, proprietary business workflows, and intellectual property. This Privacy Policy details our unwavering commitment to protecting your information and explains how data is handled across all our digital touchpoints and client engagements.`
+      content: `At Qadmas Technologies, we architect mission-critical software, and high-velocity web platforms for enterprises across Qatar, the UAE, and India. We recognize that our clients entrust us with sensitive commercial data, proprietary business workflows, and intellectual property. This Privacy Policy details our unwavering commitment to protecting your information and explains how data is handled across all our digital touchpoints and client engagements.`
     },
     {
       id: 'information-collected',
@@ -158,7 +158,7 @@ export default function PrivacyPolicy() {
                   </a>
 
                   <a
-                    href="tel:+97471328520"
+                    href="tel:+919022568492"
                     className="p-4 rounded-2xl bg-slate-50 border border-slate-200/80 flex items-center gap-3 text-ink hover:text-apple-blue transition-colors group"
                   >
                     <div className="w-9 h-9 rounded-xl bg-white border border-slate-200/80 flex items-center justify-center text-apple-blue shadow-2xs">
@@ -167,7 +167,7 @@ export default function PrivacyPolicy() {
                     <div>
                       <div className="text-[11px] text-slate uppercase tracking-wider font-semibold">Direct Legal Line</div>
                       <div className="text-[13px] font-medium text-ink group-hover:text-apple-blue transition-colors">
-                        +974 7132 8520
+                        +91 90225 68492
                       </div>
                     </div>
                   </a>

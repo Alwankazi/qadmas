@@ -8,7 +8,7 @@ import FUIBentoGridDark from '../components/ui/bento-grid-dark';
 const faqs = [
   {
     q: 'Do you build custom software or use pre-made templates?',
-    a: 'We build production software from the ground up using React, Next.js, and Node/Python so you have 100% control over the codebase and scalability. For operational platforms, we also offer pre-built ERP modules if you need to launch in under 2 weeks.'
+    a: 'We build production software from the ground up using React, Next.js, and Node/Python so you have 100% control over the codebase and scalability.'
   },
   {
     q: 'How do milestone payments work?',

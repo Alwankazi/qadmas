@@ -43,11 +43,11 @@ export default function Contact() {
               Executive consulting, enterprise proposals &amp; GCC commercial agreements.
             </p>
             <a
-              href="tel:+97471328520"
+              href="tel:+919022568492"
               className="inline-flex items-center gap-2 text-[14px] font-apple text-ink hover:text-apple-blue transition-colors font-medium"
             >
               <Phone size={14} />
-              <span>+974 7132 8520</span>
+              <span>+91 90225 68492</span>
             </a>
           </div>
 
@@ -62,7 +62,7 @@ export default function Contact() {
               On-ground client alignment, logistics automation &amp; fleet systems.
             </p>
             <a
-              href="https://wa.me/97471328520"
+              href="https://wa.me/919022568492"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-[14px] font-apple text-apple-blue hover:text-sky-700 transition-colors font-medium"
@@ -83,11 +83,11 @@ export default function Contact() {
               Full-stack sprint execution, database telemetry &amp; 24/7 technical monitoring.
             </p>
             <a
-              href="tel:+919137886399"
+              href="tel:+919022568492"
               className="inline-flex items-center gap-2 text-[14px] font-apple text-ink hover:text-apple-blue transition-colors font-medium"
             >
               <Phone size={14} />
-              <span>+91 913 7886 399</span>
+              <span>+91 90225 68492</span>
             </a>
           </div>
         </div>
@@ -153,7 +153,7 @@ export default function Contact() {
                     </label>
                     <input
                       type="tel"
-                      placeholder="+974 ... or +971 ..."
+                      placeholder="+91 90225 68492"
                       className="w-full bg-slate-50 border border-slate-200/80 rounded-xl px-4 py-3 font-apple text-[14px] text-ink placeholder-slate/50 focus:border-apple-blue focus:bg-white focus:outline-none transition-colors"
                     />
                   </div>
@@ -165,7 +165,7 @@ export default function Contact() {
                     <select
                       className="w-full bg-slate-50 border border-slate-200/80 rounded-xl px-4 py-3 font-apple text-[14px] text-ink focus:border-apple-blue focus:bg-white focus:outline-none transition-colors"
                     >
-                      <option>Ai - Powered CRM &amp; ERP (Wantik-X)</option>
+                      <option>Wantik-X CRM</option>
                       <option>Digital Marketing</option>
                       <option>Website Development</option>
                       <option>Mobile Application Development</option>

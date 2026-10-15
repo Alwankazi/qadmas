@@ -29,10 +29,10 @@ export interface CardItem {
 const defaultCards: CardItem[] = [
   {
     id: "1",
-    category: "Ai - Powered CRM & ERP",
+    category: "AI-Powered CRM",
     title: <>Intelligent CRM &amp; Automation</>,
     src: "/services/crm-erp.jpg",
-    quoteService: "Ai - Powered CRM & ERP (Wantik-X)",
+    quoteService: "Wantik-X CRM",
     badge: {
       name: "Wantik-X",
       href: "https://wantikx.com/",

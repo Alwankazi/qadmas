@@ -8,7 +8,7 @@ export default function Terms() {
     {
       id: 'agreement',
       title: '1. Master Services Agreement & Scope',
-      content: `These Terms and Conditions constitute a legally binding agreement between Qadmas Technologies ("Studio", "we", "us", or "our") and the client entity ("Client", "you") commissioning custom software engineering, ERP suites, web platforms, mobile applications, or subscription packages. By executing a Statement of Work (SOW), subscribing to a pre-packaged tier, or paying an engineering sprint retainer, you agree to be bound by these terms across all regional jurisdictions in Qatar, the UAE, and India.`
+      content: `These Terms and Conditions constitute a legally binding agreement between Qadmas Technologies ("Studio", "we", "us", or "our") and the client entity ("Client", "you") commissioning custom software engineering, web platforms, mobile applications, or subscription packages. By executing a Statement of Work (SOW), subscribing to a pre-packaged tier, or paying an engineering sprint retainer, you agree to be bound by these terms across all regional jurisdictions in Qatar, the UAE, and India.`
     },
     {
       id: 'code-ownership',
@@ -36,7 +36,7 @@ export default function Terms() {
       content: `Our commercial engagements are structured transparently with zero hidden licensing markups:`,
       bullets: [
         'Sprint Milestones: Custom projects are billed on structured milestone schedules (e.g., deposit, design sign-off, staging deployment, final production release) as specified in your proposal.',
-        'Subscription Platforms: Pre-packaged software tiers (including Wantik-X ERP and Sila Vendor System) are billed monthly or annually in advance in Qatari Riyal (QAR) or equivalent local currencies (AED / INR).',
+        'Subscription Platforms: Pre-packaged software tiers (including Wantik-X and Sila Vendor System) are billed monthly or annually in advance in Qatari Riyal (QAR) or equivalent local currencies (AED / INR).',
         'Taxes & Compliance: Invoices comply with commercial billing and applicable regional tax frameworks across Qatar, the UAE, and India.',
         'Late Payments: Accounts overdue by more than 30 calendar days may be subject to suspension of active staging environments or support SLAs until settled.'
       ]
@@ -159,7 +159,7 @@ export default function Terms() {
                   </a>
 
                   <a
-                    href="tel:+97471328520"
+                    href="tel:+919022568492"
                     className="p-4 rounded-2xl bg-slate-50 border border-slate-200/80 flex items-center gap-3 text-ink hover:text-apple-blue transition-colors group"
                   >
                     <div className="w-9 h-9 rounded-xl bg-white border border-slate-200/80 flex items-center justify-center text-apple-blue shadow-2xs">
@@ -168,7 +168,7 @@ export default function Terms() {
                     <div>
                       <div className="text-[11px] text-slate uppercase tracking-wider font-semibold">Direct Commercial Line</div>
                       <div className="text-[13px] font-medium text-ink group-hover:text-apple-blue transition-colors">
-                        +974 7132 8520
+                        +91 90225 68492
                       </div>
                     </div>
                   </a>

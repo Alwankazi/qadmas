@@ -14,18 +14,16 @@ interface ServiceOptionItem {
 }
 
 const SERVICE_OPTIONS: ServiceOptionItem[] = [
-  { name: 'Ai - Powered CRM & ERP (Wantik-X)', badge: 'Core' },
+  { name: 'Wantik-X CRM', badge: 'Core' },
   { name: 'Website Development', badge: 'Engineering' },
   { name: 'Mobile Application Development', badge: 'Engineering' },
   { name: 'Digital Marketing', badge: 'Growth' },
-  { name: 'Standard ERP (680 QR / mo)', badge: 'SaaS' },
-  { name: 'Professional Suite (850 QR / mo)', badge: 'Popular' },
   { name: 'Bespoke Enterprise (2,500 QR / mo)', badge: 'Enterprise' },
 ];
 
 export default function ContactModal({ isOpen, onClose, defaultService }: ContactModalProps) {
   const [selectedService, setSelectedService] = useState(
-    defaultService || 'Ai - Powered CRM & ERP (Wantik-X)'
+    defaultService || 'Wantik-X CRM'
   );
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [prevDefaultService, setPrevDefaultService] = useState(defaultService);
@@ -132,7 +130,7 @@ export default function ContactModal({ isOpen, onClose, defaultService }: Contac
                 </div>
                 <div className="pt-2">
                   <a
-                    href="https://wa.me/97471328520"
+                    href="https://wa.me/919022568492"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-1.5 text-[12.5px] text-apple-blue hover:text-sky-700 font-medium"
@@ -296,7 +294,7 @@ export default function ContactModal({ isOpen, onClose, defaultService }: Contac
                       type="tel"
                       value={phone}
                       onChange={(e) => setPhone(e.target.value)}
-                      placeholder="+974 7132 8520"
+                      placeholder="+91 90225 68492"
                       className="w-full bg-slate-50 border border-slate-200/80 rounded-xl px-3 py-2 text-[13.5px] text-ink placeholder:text-slate-400 focus:bg-white focus:border-apple-blue focus:outline-none transition-colors"
                     />
                   </div>
@@ -339,7 +337,7 @@ export default function ContactModal({ isOpen, onClose, defaultService }: Contac
                   </div>
 
                   <a
-                    href="https://wa.me/97471328520"
+                    href="https://wa.me/919022568492"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-1 text-slate hover:text-apple-blue transition-colors font-medium"

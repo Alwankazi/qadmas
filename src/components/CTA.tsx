@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { ArrowUpRight, MessageSquare, ShieldCheck } from 'lucide-react';
+import { ArrowUpRight, MessageSquare } from 'lucide-react';
 import ContactModal from './ContactModal';
 
 export default function CTA() {
@@ -37,7 +37,7 @@ export default function CTA() {
               </button>
 
               <a
-                href="https://wa.me/97471328520"
+                href="https://wa.me/919022568492"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-slide-ghost group"
@@ -52,15 +52,6 @@ export default function CTA() {
               </a>
             </div>
 
-            {/* Trust footer line */}
-            <div className="pt-6 border-t border-hairline-silver flex items-center justify-center gap-4 text-[12px] font-apple text-slate">
-              <span className="flex items-center gap-1.5">
-                <ShieldCheck size={13} className="text-apple-blue" />
-                <span>NDA Protected Consultations</span>
-              </span>
-              <span>·</span>
-              <span>Offices: Qatar · UAE · India</span>
-            </div>
           </div>
         </div>
       </div>

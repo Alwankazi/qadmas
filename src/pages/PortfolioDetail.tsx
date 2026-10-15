@@ -109,31 +109,6 @@ const portfolioDetails: Record<string, {
       "Custom role-based dashboard for managers and field reps",
       "Full source code ownership with zero monthly seat licensing"
     ]
-  },
-  "erp-solutions": {
-    title: "Enterprise ERP & Inventory Telemetry",
-    categoryDesc: "Multi-warehouse stock tracking, commercial invoice automation, and supply chain synchronization across the GCC.",
-    projects: [
-      {
-        id: 6,
-        title: "Redchilly Trading Multi-Warehouse Inventory & Invoicing ERP",
-        desc: "A bespoke ERP platform built for an international trading company managing 4 warehouses across Qatar, UAE, and India. Features real-time barcode telemetry, automated purchase orders, commercial customs invoicing, and GCC VAT compliant accounting.",
-        outcome: "Reduced warehouse discrepancies to under 0.01% and cut invoice fulfillment time by 45%.",
-        image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=2670&auto=format&fit=crop",
-        details: {
-          client: "REDCHILLY TRADING",
-          category: "Supply Chain & Invoicing ERP",
-          region: "Qatar & India",
-          stack: "TypeScript · PostgreSQL · Redis · Docker",
-        }
-      }
-    ],
-    highlights: [
-      "Multi-warehouse real-time inventory telemetry",
-      "Automated GCC VAT & customs invoice PDF dispatch",
-      "Role-based access control (RBAC) across regional warehouses",
-      "Complete offline barcode scanning capability"
-    ]
   }
 };
 

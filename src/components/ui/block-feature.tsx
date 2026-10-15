@@ -95,7 +95,7 @@ function WorkflowBranches() {
       {/* Top Wantik-X Core Badge */}
       <div className="relative z-10 flex items-center justify-center gap-2 px-5 py-2.5 rounded-2xl bg-neutral-900 border border-neutral-700/90 shadow-lg text-white">
         <span className="font-bold text-[17px] tracking-tight font-apple text-white">
-          Wantik-X ERP &amp; CRM
+          Wantik-X CRM
         </span>
         <span className="w-2 h-2 rounded-full bg-emerald-400 inline-block animate-pulse"></span>
       </div>

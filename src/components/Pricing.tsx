@@ -13,37 +13,6 @@ export default function Pricing() {
 
   const plans = [
     {
-      name: 'Standard ERP',
-      price: '680 QR',
-      period: '/ month',
-      desc: 'Pre-built operational ERP & CRM for growing businesses needing to centralize sales and inventory.',
-      features: [
-        'Single warehouse stock tracking',
-        'Sales pipeline & quote generation',
-        'Automated PDF invoice dispatch',
-        'Up to 5 team members',
-        'Standard business-hours support',
-      ],
-      packageName: 'Standard Package (680 QR / mo)',
-      popular: false,
-    },
-    {
-      name: 'Professional Suite',
-      price: '850 QR',
-      period: '/ month',
-      desc: 'Full-featured operational engine for multi-branch trading, fleet, or service businesses.',
-      features: [
-        'Multi-warehouse real-time sync',
-        'Automated WhatsApp lead dispatch',
-        'Customs & VAT compliant reports',
-        'Up to 15 team user accounts',
-        '24/7 server monitoring & backups',
-        'Sub-second database indexing',
-      ],
-      packageName: 'Professional Package (850 QR / mo)',
-      popular: true,
-    },
-    {
       name: 'Bespoke Enterprise',
       price: '2,500 QR',
       period: '/ month',
@@ -51,7 +20,7 @@ export default function Pricing() {
       features: [
         '100% custom software engineering',
         'Unlimited seats & branch licenses',
-        'Custom ERP / CRM / Mobile apps',
+        'Custom CRM / Mobile apps',
         'Complete Git source code ownership',
         'Dedicated lead engineer & 15m SLA',
         'On-premise or custom cloud setup',
@@ -72,12 +41,12 @@ export default function Pricing() {
             <span className="text-apple-blue font-serif-accent font-normal italic">Qatari Riyal (QR)</span>
           </h2>
           <p className="font-apple text-[16px] text-slate leading-relaxed">
-            No surprise billing or hidden upgrade gates. Choose a tested pre-built operational system or commission a dedicated engineering team.
+            No surprise billing or hidden upgrade gates. Commission a dedicated engineering team for your custom software project.
           </p>
         </div>
 
-        {/* 3 Pricing Cards */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 items-stretch">
+        {/* Engineering Pricing */}
+        <div className="grid grid-cols-1 max-w-xl mx-auto gap-6 items-stretch">
           {plans.map((plan, idx) => (
             <div
               key={idx}

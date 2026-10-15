@@ -6,7 +6,7 @@ export default function Footer() {
     {
       title: 'Solutions',
       links: [
-        { label: 'Ai - Powered CRM & ERP (Wantik-X)', href: 'https://wantikx.com/' },
+        { label: 'Wantik-X CRM', href: 'https://wantikx.com/' },
         { label: 'Digital Marketing', href: '/services/digital-marketing' },
         { label: 'Website Development', href: '/services' },
         { label: 'Mobile Application Development', href: '/services' },
@@ -17,7 +17,7 @@ export default function Footer() {
       links: [
         { label: 'About Our Studio', href: '/about' },
         { label: 'Client Case Studies', href: '/portfolio' },
-        { label: 'Pre-Built Packages', href: '/products#pricing' },
+        { label: 'Software Pricing', href: '/products#pricing' },
         { label: 'Engineering Culture', href: '/about' },
         { label: 'Direct Consultation', href: '/contact' },
       ],
@@ -56,7 +56,7 @@ export default function Footer() {
               />
             </Link>
             <p className="font-apple text-[14px] text-slate leading-relaxed">
-              An independent software engineering studio building production systems, custom ERPs, and fast web platforms for ambitious operations across Qatar, the UAE, and India.
+              An independent software engineering studio building production systems and fast web platforms for ambitious operations across Qatar, the UAE, and India.
             </p>
             <div className="flex items-center gap-2 text-[13px] font-apple text-slate/90 pt-1">
               <ShieldCheck size={15} className="text-apple-blue shrink-0" />
@@ -89,27 +89,16 @@ export default function Footer() {
 
             <div className="space-y-2">
               <div className="text-[11px] font-apple uppercase tracking-wider text-slate-400 font-semibold">
-                Call Our Hubs
+                Call Our Team
               </div>
               <div className="space-y-2 font-apple">
                 <a
-                  href="tel:+97471328520"
+                  href="tel:+919022568492"
                   className="group flex items-center gap-2.5 text-ink hover:text-apple-blue transition-colors font-apple font-medium text-[14px]"
                 >
                   <Phone size={15} className="text-apple-blue shrink-0" />
                   <span className="group-hover:text-apple-blue transition-colors">
-                    +974 7132 8520
-                  </span>
-                  <span className="text-[12px] text-slate font-normal">Qatar</span>
-                </a>
-
-                <a
-                  href="tel:+919137886399"
-                  className="group flex items-center gap-2.5 text-ink hover:text-apple-blue transition-colors font-apple font-medium text-[14px]"
-                >
-                  <Phone size={15} className="text-apple-blue shrink-0" />
-                  <span className="group-hover:text-apple-blue transition-colors">
-                    +91 913 7886 399
+                    +91 90225 68492
                   </span>
                   <span className="text-[12px] text-slate font-normal">India</span>
                 </a>
@@ -173,7 +162,7 @@ export default function Footer() {
 
           <div className="flex items-center gap-3">
             <a
-              href="https://wa.me/97471328520"
+              href="https://wa.me/919022568492"
               target="_blank"
               rel="noopener noreferrer"
               className="w-8 h-8 rounded-full border border-slate-200/80 bg-white flex items-center justify-center text-slate hover:text-apple-blue hover:border-apple-blue transition-colors shadow-2xs"
